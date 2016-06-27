@@ -1,0 +1,23 @@
+{
+  "name": "ghremote",
+  "version": "1.0.0",
+  "description": "GitHub remote add shortcut",
+  "author": "John Otander <johnotander@gmail.com> (http://johnotander.com/)",
+  "repository": "johnotander/ghremote",
+  "license": "MIT",
+  "bin": "ghremote.sh",
+  "files": [
+    "ghremote.sh"
+  ],
+  "keywords": [
+    "cli-app",
+    "git",
+    "remote",
+    "ghremote",
+    "sh"
+  ],
+  "engines": {
+    "node": ">=0.10.0"
+  },
+  "dependencies": {}
+}
