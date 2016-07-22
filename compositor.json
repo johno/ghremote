@@ -1,0 +1,123 @@
+{
+  "name": "johnotander/ghremote",
+  "version": "0.1.3",
+  "libraries": {
+    "xv": "^1.1.2"
+  },
+  "title": "",
+  "branch": "",
+  "style": {
+    "name": "Default",
+    "fontFamily": "-apple-system, BlinkMacSystemFont, sans-serif",
+    "fontWeight": 400,
+    "bold": 600,
+    "lineHeight": 1.5,
+    "typeScale": [
+      72,
+      48,
+      24,
+      20,
+      16,
+      14,
+      12
+    ],
+    "heading": {
+      "fontFamily": null,
+      "fontStyle": null,
+      "fontWeight": 600,
+      "lineHeight": 1.25,
+      "textTransform": null,
+      "letterSpacing": null,
+      "h0": {},
+      "h1": {},
+      "h2": {},
+      "h3": {},
+      "h4": {},
+      "h5": {},
+      "h6": {}
+    },
+    "alternativeText": {},
+    "space": [
+      0,
+      8,
+      16,
+      32,
+      48,
+      64,
+      96
+    ],
+    "layout": {
+      "maxWidth": 1024,
+      "centered": false
+    },
+    "colors": {
+      "text": "#111",
+      "background": "#fff",
+      "inverted": "#fff",
+      "primary": "#08e",
+      "secondary": "#0e8",
+      "highlight": "#e08",
+      "border": "#ddd",
+      "muted": "#eee"
+    },
+    "border": {
+      "width": 1,
+      "radius": 2
+    },
+    "link": {},
+    "button": {
+      "hover": {
+        "boxShadow": "inset 0 0 0 999px rgba(0, 0, 0, .125)"
+      }
+    },
+    "input": {},
+    "body": {
+      "margin": 0
+    }
+  },
+  "content": [
+    {
+      "component": "nav/AbsoluteNav",
+      "links": [
+        {
+          "href": "https://github.com/johnotander/ghremote",
+          "text": "GitHub"
+        },
+        {
+          "href": "https://npmjs.com/package/ghremote",
+          "text": "npm"
+        }
+      ]
+    },
+    {
+      "component": "header/BannerHeader",
+      "heading": "ghremote",
+      "subhead": "GitHub remote add shortcut",
+      "links": [
+        {
+          "text": "Tweet",
+          "href": "https://twitter.com/intent/tweet?text=ghremote%253A%2520GitHub%2520remote%2520add%2520shortcut&url="
+        }
+      ],
+      "text": "v1.0.0"
+    },
+    {
+      "component": "article/BasicArticle",
+      "text": "\n<p>Git remote shortcut. A bash script bundled with npm.</p>\n<h2 id=\"installation\">Installation</h2>\n<pre><code>$ npm i -g ghremote\n</code></pre><h2 id=\"usage\">Usage</h2>\n<pre><code class=\"lang-sh\">$ ghremote\nGitHub remote shortcut\n\n\nUsage:\n  $ ghremote &lt;username&gt;/&lt;repo&gt;\n\n\nExample:\n  $ ghremote johnotander/pixyll\n  $ ghremote upstream johnotander/pixyll\n</code></pre>\n<h2 id=\"license\">License</h2>\n<p>MIT</p>\n<h2 id=\"contributing\">Contributing</h2>\n<ol>\n<li>Fork it</li>\n<li>Create your feature branch (<code>git checkout -b my-new-feature</code>)</li>\n<li>Commit your changes (<code>git commit -am &apos;Add some feature&apos;</code>)</li>\n<li>Push to the branch (<code>git push origin my-new-feature</code>)</li>\n<li>Create new Pull Request</li>\n</ol>\n<p>Crafted with &lt;3 by <a href=\"http://johnotander.com\">John Otander</a> (<a href=\"https://twitter.com/4lpine\">@4lpine</a>).</p>\n<hr>\n<blockquote>\n<p>This package was initially generated with <a href=\"http://yeoman.io\">yeoman</a> and the <a href=\"https://github.com/johnotander/generator-p.git\">p generator</a>. </p>\n</blockquote>\n",
+      "html": "\n<p>Git remote shortcut. A bash script bundled with npm.</p>\n<h2 id=\"installation\">Installation</h2>\n<pre><code>$ npm i -g ghremote\n</code></pre><h2 id=\"usage\">Usage</h2>\n<pre><code class=\"lang-sh\">$ ghremote\nGitHub remote shortcut\n\n\nUsage:\n  $ ghremote &lt;username&gt;/&lt;repo&gt;\n\n\nExample:\n  $ ghremote johnotander/pixyll\n  $ ghremote upstream johnotander/pixyll\n</code></pre>\n<h2 id=\"license\">License</h2>\n<p>MIT</p>\n<h2 id=\"contributing\">Contributing</h2>\n<ol>\n<li>Fork it</li>\n<li>Create your feature branch (<code>git checkout -b my-new-feature</code>)</li>\n<li>Commit your changes (<code>git commit -am &apos;Add some feature&apos;</code>)</li>\n<li>Push to the branch (<code>git push origin my-new-feature</code>)</li>\n<li>Create new Pull Request</li>\n</ol>\n<p>Crafted with &lt;3 by <a href=\"http://johnotander.com\">John Otander</a> (<a href=\"https://twitter.com/4lpine\">@4lpine</a>).</p>\n<hr>\n<blockquote>\n<p>This package was initially generated with <a href=\"http://yeoman.io\">yeoman</a> and the <a href=\"https://github.com/johnotander/generator-p.git\">p generator</a>. </p>\n</blockquote>\n"
+    },
+    {
+      "component": "footer/BasicFooter",
+      "links": [
+        {
+          "href": "https://github.com/johnotander/ghremote",
+          "text": "GitHub"
+        },
+        {
+          "href": "https://github.com/johnotander",
+          "text": "johnotander"
+        }
+      ]
+    }
+  ]
+}
