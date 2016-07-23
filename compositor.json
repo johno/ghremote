@@ -7,26 +7,20 @@
   "title": "",
   "branch": "",
   "style": {
-    "name": "Brutalist",
-    "fontFamily": "Consolas, \"Liberation Mono\", Menlo, Courier, monospace",
-    "heading": {},
-    "typeScale": [
-      48,
-      32,
-      20,
-      18,
-      16,
-      14,
-      12
-    ],
+    "name": "Williamsburg",
+    "fontFamily": "Montserrat, sans-serif",
+    "heading": {
+      "fontWeight": 600,
+      "letterSpacing": "0.1em"
+    },
     "colors": {
-      "text": "#333",
+      "text": "#346",
       "background": "#fff",
-      "primary": "#777",
-      "secondary": "#ccc",
-      "highlight": "#1f80ff",
-      "muted": "#f6f6f6",
-      "border": "#eee"
+      "primary": "#0df",
+      "secondary": "#3ea",
+      "highlight": "#f7b",
+      "muted": "#fe1",
+      "border": "#ccd"
     }
   },
   "content": [
